@@ -18,14 +18,38 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Michael's Blogging Site
-
+title: Allenstech Blog
+subtitle: "Tech tutorials and news"
+description: "This site serves as my personal blogging and tech news hub."
+repository: "Allenstech-Homelab/allenstechio.github.io"
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      search: true
+      read_time: true
+      enable_copy_code_button: true
+      show_date: true
+      share: true
+      related: true
+
+author:
+  name     : "Michael Allen"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "My awesome biography lol."
+  location : "Georgia, USA"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
