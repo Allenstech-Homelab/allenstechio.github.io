@@ -48,7 +48,7 @@ defaults:
 author:
   name     : "Michael Allen"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography lol."
+  bio      : "engineering,electronics,gaming"
   location : "Georgia, USA"
 
 # Exclude from processing.
