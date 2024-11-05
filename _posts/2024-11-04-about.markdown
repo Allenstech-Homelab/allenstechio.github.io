@@ -3,8 +3,8 @@ layout: single
 title: "About Page"
 permalink: /about/
 date: 2024-11-04
-categories: [blog]
-tags: [News]
+categories: [about]
+tags: [about]
 author_profile: true
 ---
 I created this site to offer valuable resources for individuals navigating technical challenges, share insights from my personal experiences in information technology, and keep readers updated on the latest tech news. My aim is to create a platform that not only assists others in overcoming obstacles but also fosters a community of knowledge sharing.
