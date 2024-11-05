@@ -49,7 +49,7 @@ defaults:
 author:
   name     : "Michael Allen"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "IT infrastructure professional with years of experience and certifications including AZ-104, AZ-305, VMware VCP-DCV 2022, CySA+, and Security+. Passionate about sharing knowledge in the tech space."
+  bio      : "IT infrastructure professional with years of experience and certifications including AZ-104, AZ-305, VMware VCP-DCV 2022, CySA+, and Security+. Passionate about automation and sharing knowledge in the tech space."
   location : "Georgia, USA"
   links:
     - label: "Linkedin"
