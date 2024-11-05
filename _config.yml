@@ -50,12 +50,12 @@ defaults:
 author:
   name     : "Michael Allen"
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "With years of experience in IT infrastructure, I hold several certifications, including AZ-104, AZ-305, AWS CLF-01, VMware VCP-DCV 2022, CySA+, and Security+. I am passionate about leveraging my expertise to help others navigate the ever-evolving technology landscape."
+  bio      : "IT infrastructure professional with years of experience and certifications including AZ-104, AZ-305, VMware VCP-DCV 2022, CySA+, and Security+. Passionate about sharing knowledge in the tech space."
   location : "Georgia, USA"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/michaeljallen941"
+      url: "https://linkedin.com/in/michaeljallen941"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/allenstech_io"
