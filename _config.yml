@@ -63,7 +63,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/allenstech_io"
     - label: "Credly"
-      icon: "fab fa-fw fa-file-certificate"
+      icon: "fab fa-fw fa-certificate"
       url: "https://www.credly.com/users/john-michael-allen"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
