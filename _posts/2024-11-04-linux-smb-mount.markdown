@@ -2,8 +2,8 @@
 layout: single
 title: "Create a systemd SMB mount on (Debian) Linux"
 date: 2024-11-04
-categories: [blog]
-tags: [Jekyll, Minimal Mistakes]
+categories: [tutorial]
+tags: [linux, debian, smb, cifs]
 author_profile: true
 ---
 Recently while I was working in my homelab I came across the need to mount some SMB shares to my LXC containers. The shares needed to persist through reboots as well and I wanted to create a systemd unit to accomplish these tasks.
