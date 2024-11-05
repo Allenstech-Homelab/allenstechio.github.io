@@ -37,7 +37,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: tag
+      type: posts
     values:
       layout: single
       search: true
