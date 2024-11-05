@@ -22,7 +22,7 @@ url: https://docs.allenstech.io
 timezone: America/New_York
 title: Allenstech Blog
 subtitle: "Tech tutorials and news"
-description: "This site serves as my personal blogging and tech news hub."
+description: "Allenstech - blogging, tutorials, news, and more."
 repository: "Allenstech-Homelab/allenstechio.github.io"
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
