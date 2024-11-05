@@ -6,4 +6,4 @@ categories: [blog]
 tags: [Jekyll, Minimal Mistakes]
 author_profile: true
 ---
-I'm documenting my experience with setting up Github Pages along with Jekyll and a custom domain name. Soon, I will post some info on how I set all of this up!
+I’m documenting my journey of setting up GitHub Pages with Jekyll and a custom domain. In the near future, I will share detailed information about the setup process and insights I've gained along the way!
