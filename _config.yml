@@ -53,6 +53,9 @@ author:
   bio      : "With years of experience in IT infrastructure, I hold several certifications, including AZ-104, AZ-305, AWS CLF-01, VMware VCP-DCV 2022, CySA+, and Security+. I am passionate about leveraging my expertise to help others navigate the ever-evolving technology landscape."
   location : "Georgia, USA"
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/michaeljallen941"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/allenstech_io"
