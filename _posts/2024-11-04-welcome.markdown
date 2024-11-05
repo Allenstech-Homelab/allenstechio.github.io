@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Welcome to my blog site"
-date:   2024-11-04 16:32:31 -0500
-categories: welcome
+layout: single
+title: "A New Site"
+date: 2024-11-04
+categories: [blog]
+tags: [Jekyll, Minimal Mistakes]
+author_profile: true
 ---
+## The Start of Something Great
 
-Welcome to my blogging site where I share tech news and tutorials!
+Welcome to my blogging where I share tech news and tutorials
