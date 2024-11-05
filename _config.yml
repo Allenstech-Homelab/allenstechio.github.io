@@ -17,8 +17,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-#url: https://docs.allenstech.io
-#baseurl: "/blog"
+url: https://docs.allenstech.io
+baseurl: "/blog"
 timezone: America/New_York
 title: Allenstech Blog
 subtitle: "Tech tutorials and news"
