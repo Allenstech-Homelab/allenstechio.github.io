@@ -25,6 +25,7 @@ subtitle: "Tech tutorials and news"
 description: "Allenstech - blogging, tutorials, news, and more."
 repository: "Allenstech-Homelab/allenstechio.github.io"
 enable_copy_code_button: true
+search: true
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
