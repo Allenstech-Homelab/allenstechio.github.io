@@ -46,7 +46,7 @@ Since im hosting Proxmox on-prem in my homelab im going to be using a self-hoste
 - [Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) (version 1.1.0+) installed locally. 
 - Sign up for a [GitHub Account](https://github.com) and create a new repository.
 - [Git](https://git-scm.com/downloads) installed locally.
-- If you don't have a terraform repository or are just learning terraform the first time, hashicorp provides an example learning repository you can use. You will need to clone it down to your local workstation. (git clone https://github.com/hashicorp/learn-terraform.git)
+- If you don't have a terraform repository or are just learning terraform the first time, hashicorp provides an [example learning repository](https://github.com/hashicorp/learn-terraform.git) you can use. You will need to clone it to your local workstation. 
 - Sign up for a [HCP Terraform Cloud account](https://app.terraform.io/session).
 
 ### Step by Step
