@@ -63,13 +63,13 @@ Since im hosting Proxmox on-prem in my homelab im going to be using a self-hoste
 ```
 terraform init
 ```
-1. Navigate to your new workspace, Select Variables in the workspace's menu, Under Variable sets, click Apply variable set.
-2.  At this point from your CLI you can run:
+9. Navigate to your new workspace, Select Variables in the workspace's menu, Under Variable sets, click Apply variable set.
+10.  At this point from your CLI you can run:
 ```
 terraform plan
 ``` 
-1.  You can check your terraform plan in the CLI or you can view this in the Terraform Cloud UI.
-2.  If you are satisfied with the changes that are planned you can run:
+11.  You can check your terraform plan in the CLI or you can view this in the Terraform Cloud UI.
+12.  If you are satisfied with the changes that are planned you can run:
 ```
 terraform apply
 ```
