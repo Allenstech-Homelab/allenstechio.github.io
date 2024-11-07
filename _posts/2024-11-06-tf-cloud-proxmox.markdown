@@ -33,7 +33,7 @@ Another major advantage is collaboration. Terraform Cloud is purpose-built for t
 
 Other notable features include version control integration that triggers Terraform runs directly from supported VCS platforms (such as GitHub and GitLab) with every push to a branch. It also offers role-based access control (RBAC), enhancing security by allowing fine-grained permissions. Plus, for smaller teams, Terraform Cloud offers a free tier, making it a cost-effective solution for getting started.
 
-You'll need to sign up for a free Terraform Cloud account here (https://app.terraform.io/session)
+You'll need to sign up for a free Terraform Cloud account here (link: https://app.terraform.io/session)
 If you are interested, the free and paid Terraform cloud plan comparison can be found here (https://developer.hashicorp.com/terraform/cloud-docs/overview)
 
 ## Self-hosted TF Cloud Execution Agent
