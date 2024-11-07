@@ -110,13 +110,13 @@ provider "proxmox" {
   pm_tls_insecure = true
 }
 
-resource "proxmox_vm_qemu" "pelican-01" {
+resource "proxmox_vm_qemu" "awx-01" {
 
   # VM settings
   vm_state                            = "running"
   vmid                                = 106
   tags                                = "linux"
-  name                                = "pelican-01" 
+  name                                = "awx-01" 
   target_node                         = "pve-01"
   clone                               = "2204-TPL-PKR"
   full_clone                          = "true"
