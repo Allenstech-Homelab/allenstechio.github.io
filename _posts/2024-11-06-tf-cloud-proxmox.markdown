@@ -31,9 +31,7 @@ One key benefit of Terraform Cloud is its built-in state management with a locki
 
 Another major advantage is collaboration. Terraform Cloud is purpose-built for team environments, enabling multiple users to work on infrastructure efficiently with shared visibility and access.
 
-Other notable features include version control integration that triggers Terraform runs directly from supported VCS platforms (such as GitHub and GitLab) with every push to a branch. It also offers role-based access control (RBAC), enhancing security by allowing fine-grained permissions. Plus, for smaller teams, Terraform Cloud offers a free tier, making it a cost-effective solution for getting started.
-
-If you are interested, HashiCorp provides a [free and paid Terraform cloud plan comparison](https://developer.hashicorp.com/terraform/cloud-docs/overview)
+Other notable features include version control integration that triggers Terraform runs directly from supported VCS platforms (such as GitHub and GitLab) with every push to a branch. It also offers role-based access control (RBAC), enhancing security by allowing fine-grained permissions. Plus, for smaller teams, Terraform Cloud offers a free tier, making it a cost-effective solution for getting started. If you are interested, HashiCorp provides a [free and paid Terraform cloud plan comparison](https://developer.hashicorp.com/terraform/cloud-docs/overview)
 
 ## Self-hosted TF Cloud Execution Agent
 
