@@ -40,9 +40,9 @@ If you are interested, the free and paid Terraform cloud plan comparison can be 
 
 Since im hosting Proxmox on-prem in my homelab im going to be using a self-hosted Proxmox LXC to execute my code locally on-prem within my network.
 
-### Steps to set this up
+# Steps to set this up
 
-# Prerequisites
+## Prerequisites
 - Terraform CLI (version 1.1.0+) installed locally (https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 - Sign up for a GitHub account and create a new repository (https://github.com)
 - Clone your repository locally by either using a Git Client or command line. I prefer to use VSCode (https://code.visualstudio.com/) If you don't have a terraform repository or are just learning terraform the first time, hashicorp provides an example learning repository you can use. (git clone https://github.com/hashicorp/learn-terraform.git)
@@ -71,9 +71,9 @@ terraform apply
 ```
 This will apply the proposed changes to your infrastructure.
 
-### Proxmox Terraform file examples (main.tf & vars.tf)
+## Proxmox Terraform file examples (main.tf & vars.tf)
 
-## Main.tf
+### Main.tf
 ```
 terraform {
   required_version = "~> 1.9"
@@ -165,7 +165,7 @@ resource "proxmox_vm_qemu" "pelican-01" {
 }
 ```
 
-## Vars.tf
+### Vars.tf
 ```
 #SSH key used during cloud-init configuration
 variable "ssh_key" {
