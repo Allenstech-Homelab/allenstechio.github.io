@@ -52,7 +52,7 @@ Since im hosting Proxmox on-prem in my homelab im going to be using a self-hoste
 
 1. Create an Organization in TF Cloud
 2. Create a workspace in TF Cloud
-3. Connect your GitHub to [TF Cloud VCS](https://developer.hashicorp.com/terraform/cloud-docs/vcs/github)
+3. Connect your GitHub to [TF Cloud VCS](https://developer.hashicorp.com/terraform/cloud-docs/vcs/github).
 4. Using a CLI issue the "terraform login" command
 5. A browser will pop-up automatically. Enter a token name, click Create API Token, paste the token value in your CLI interface. If you need to save the token for any reason, be sure to store it in a secure location. If all goes well you should see a "Welcome to HCP Terraform!" message.
 6. Create a credentials variable set in Settings -> Variable Sets -> Create Variable Set. I recommend creating a variable set rather than workspace specific variables so that they can be used across different workspaces you create in the future. Choose the "apply globally" setting, and when adding your credential variables be sure to choose the environment variable category. You will also see a checkbox to mark the variable as sensitive. I highly recommend using the sensitive label for any credential related environment variables. To save the credential set click "Create variable set"
