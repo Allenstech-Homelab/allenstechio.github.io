@@ -40,16 +40,16 @@ If you are interested, the free and paid Terraform cloud plan comparison can be 
 
 Since im hosting Proxmox on-prem in my homelab im going to be using a self-hosted Proxmox LXC to execute my code locally on-prem within my network.
 
-# Here's How I did it
+## Here's How I did it
 
-## Prerequisites
+### Prerequisites
 
 - Terraform CLI (version 1.1.0+) installed locally (https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 - Sign up for a GitHub account and create a new repository (https://github.com)
 - Clone your repository locally by either using a Git Client or command line. I prefer to use VSCode (https://code.visualstudio.com/) If you don't have a terraform repository or are just learning terraform the first time, hashicorp provides an example learning repository you can use. (git clone https://github.com/hashicorp/learn-terraform.git)
 - Sign up for a HCP Terraform Cloud account here (https://app.terraform.io/session)
 
-## Step by Step
+### Step by Step
 
 1. Create an Organization in TF Cloud
 2. Create a workspace in TF Cloud
