@@ -33,8 +33,9 @@ Another major advantage is collaboration. Terraform Cloud is purpose-built for t
 
 Other notable features include version control integration that triggers Terraform runs directly from supported VCS platforms (such as GitHub and GitLab) with every push to a branch. It also offers role-based access control (RBAC), enhancing security by allowing fine-grained permissions. Plus, for smaller teams, Terraform Cloud offers a free tier, making it a cost-effective solution for getting started.
 
-You'll need to sign up for a free Terraform Cloud account here [Link](https://app.terraform.io/session)
-If you are interested, the free and paid Terraform cloud plan comparison can be found here (https://developer.hashicorp.com/terraform/cloud-docs/overview)
+You'll need to sign up for a free Terraform Cloud account here: [Link](https://app.terraform.io/session)
+
+If you are interested, the free and paid Terraform cloud plan comparison can be found here: [Link](https://developer.hashicorp.com/terraform/cloud-docs/overview)
 
 ## Self-hosted TF Cloud Execution Agent
 
@@ -45,15 +46,15 @@ Since im hosting Proxmox on-prem in my homelab im going to be using a self-hoste
 ### Prerequisites
 
 - Terraform CLI (version 1.1.0+) installed locally (https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
-- Sign up for a GitHub account and create a new repository (https://github.com)
-- Clone your repository locally by either using a Git Client or command line. I prefer to use VSCode (https://code.visualstudio.com/) If you don't have a terraform repository or are just learning terraform the first time, hashicorp provides an example learning repository you can use. (git clone https://github.com/hashicorp/learn-terraform.git)
-- Sign up for a HCP Terraform Cloud account here (https://app.terraform.io/session)
+- Sign up for a GitHub account and create a new repository [GitHub Link](https://github.com)
+- Clone your repository locally by either using a Git Client or command line. I prefer to use VSCode [VSCode Download Page Link](https://code.visualstudio.com/) If you don't have a terraform repository or are just learning terraform the first time, hashicorp provides an example learning repository you can use. (git clone https://github.com/hashicorp/learn-terraform.git)
+- Sign up for a HCP Terraform Cloud account [Link](https://app.terraform.io/session)
 
 ### Step by Step
 
 1. Create an Organization in TF Cloud
 2. Create a workspace in TF Cloud
-3. Connect your GitHub to TF Cloud VCS (OAuth - https://developer.hashicorp.com/terraform/cloud-docs/vcs/github)
+3. Connect your GitHub to TF Cloud VCS [Link](https://developer.hashicorp.com/terraform/cloud-docs/vcs/github)
 4. Using a CLI issue the "terraform login" command
 5. A browser will pop-up automatically. Enter a token name, click Create API Token, paste the token value in your CLI interface. If you need to save the token for any reason, be sure to store it in a secure location. If all goes well you should see a "Welcome to HCP Terraform!" message.
 6. Create a credentials variable set in Settings -> Variable Sets -> Create Variable Set. I recommend creating a variable set rather than workspace specific variables so that they can be used across different workspaces you create in the future. Choose the "apply globally" setting, and when adding your credential variables be sure to choose the environment variable category. You will also see a checkbox to mark the variable as sensitive. I highly recommend using the sensitive label for any credential related environment variables. To save the credential set click "Create variable set"
@@ -62,13 +63,13 @@ Since im hosting Proxmox on-prem in my homelab im going to be using a self-hoste
 ```
 terraform init
 ```
-9. Navigate to your new workspace, Select Variables in the workspace's menu, Under Variable sets, click Apply variable set.
-10. At this point from your CLI you can run:
+1. Navigate to your new workspace, Select Variables in the workspace's menu, Under Variable sets, click Apply variable set.
+2.  At this point from your CLI you can run:
 ```
 terraform plan
 ``` 
-11. You can check your terraform plan in the CLI or you can view this in the Terraform Cloud UI.
-12. If you are satisfied with the changes that are planned you can run:
+1.  You can check your terraform plan in the CLI or you can view this in the Terraform Cloud UI.
+2.  If you are satisfied with the changes that are planned you can run:
 ```
 terraform apply
 ```
