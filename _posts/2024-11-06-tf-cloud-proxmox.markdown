@@ -7,10 +7,9 @@ tags: [devops, terraform, cloud, proxmox]
 author_profile: true
 permalink: /tf-cloud-proxmox/
 ---
+One of my favorite aspects of technology is automation. In the infrastructure realm, automation shines by freeing engineers from mundane tasks, enabling them to focus on more impactful work. Beyond saving time, automation introduces reliable, repeatable, and secure processes, ensuring infrastructure is robust and resilient. Several years ago I was introduced to the concept of IaC (Infrastructure as code) and I found it to be fascinating.
 
 ## Overview
-
-One of my favorite aspects of technology is automation. In the infrastructure realm, automation shines by freeing engineers from mundane tasks, enabling them to focus on more impactful work. Beyond saving time, automation introduces reliable, repeatable, and secure processes, ensuring infrastructure is robust and resilient. Several years ago I was introduced to the concept of IaC (Infrastructure as code) and I found it to be fascinating.
 
 Roughly a year ago, I decided to explore using Terraform to streamline my personal Proxmox environment. My goal was to set up CI/CD pipelines to fully automate the provisioning of VMs and LXCs. While I was already familiar with using Terraform via the CLI, I wanted to take it a step further by incorporating elements of the SDLC, aiming for a truly seamless, automated process.
 
