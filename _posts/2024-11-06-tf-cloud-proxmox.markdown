@@ -1,12 +1,11 @@
 ---
 layout: single
 title: "Leveraging Terraform Cloud with Proxmox"
-date: 2024-11-07
+date: 2024-11-19
 categories: [tutorial]
 tags: [devops, terraform, cloud, proxmox]
 author_profile: true
 permalink: /tf-cloud-proxmox/
-hidden: true
 ---
 
 ## Overview
