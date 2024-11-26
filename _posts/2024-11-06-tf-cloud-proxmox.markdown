@@ -11,7 +11,7 @@ One of my favorite aspects of technology is automation. In the infrastructure re
 
 ## Overview
 
-Roughly a year ago, I decided to explore using Terraform to streamline my personal Proxmox environment. My goal was to set up CI/CD pipelines to fully automate the provisioning of VMs and LXCs. While I was already familiar with using Terraform via the CLI, I wanted to take it a step further by incorporating elements of the SDLC, aiming for a truly seamless, automated process.
+I decided to explore using Terraform to streamline my personal Proxmox environment. My goal was to set up CI/CD pipelines to fully automate the provisioning of VMs and LXCs. While I was already familiar with using Terraform via the CLI, I wanted to take it a step further by incorporating elements of the SDLC, aiming for a truly seamless, automated process.
 
 Follow along below for an overview of how I set up Terraform Cloud with pipelines to bring this vision to life. I’ll walk through my configuration, the integrations I used, and some tips I picked up along the way for optimizing the automation process.
 
